@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <button className="theme-toggle" onClick={() => setDark(!dark)}>
-        {dark ? "☀️ Light" : "🌙 Dark"}
+        {dark ? "☀️" : "🌙"}
       </button>
       <Component {...pageProps} />
     </>
